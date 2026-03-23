@@ -7,8 +7,9 @@
 
 <body>
 
-    <!-- Header Section -->
-    <header>
+<div class="container">
+   
+<header>
         <h1>Shape Up!</h1>
         <p>Find the best fit for you</p>
     </header>
@@ -75,12 +76,15 @@
             <li><a href="#">Yoga workout</a></li>
         </ul>
 
+     </selection>
+
     </main>
 
     <!-- Footer -->
     <footer>
         <p>&copy; Shape Up!</p>
     </footer>
+</div>
 
 </body>
 </html>
