@@ -10,7 +10,10 @@
 <body>
 
 <div class="container">
-   
+  <aside class="left">Left content</aside>
+  <section>Main content here</section>
+  <aside class="right">Right content</aside>
+</div>
 <header>
         <h1>Shape Up!</h1>
         <p>Find the best fit for you</p>
