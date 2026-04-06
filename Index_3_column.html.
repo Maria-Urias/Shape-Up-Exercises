@@ -20,8 +20,29 @@
         <!-- Image -->
         <img src="images/shapeup.png" alt="People exercising in a circle">
     </header>
+<nav class="navbar">
+  <ul class="menu">
 
-    <!-- Main Content -->
+    <li><a href="index.html" class="active">Home</a></li>
+
+    <li class="has-submenu">
+      <a href="strength/strength.html">Strength Training</a>
+      <ul class="submenu">
+        <li><a href="strength/strength.html">Overview</a></li>
+        <li><a href="strength/strength.html">Programs</a></li>
+      </ul>
+    </li>
+
+    <li class="has-submenu">
+      <a href="stress/stress.html">Stress Relief</a>
+      <ul class="submenu">
+        <li><a href="stress/stress.html">What is Stress</a></li>
+        <li><a href="stress/tips.html">5 Helpful Tips</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</nav>
     <main>
         <section>
             <h2>Get ready to Shape Up!</h2>
