@@ -20,8 +20,8 @@
         <!-- Navigation -->
         <nav>
             <!-- Dropdown navigation for small screens -->
-            <select class="nav-select" onchange="location = this.value;">
-                <option value="#">Select a page...</option>
+            <select class="nav-select" id="nav-select">
+                <option value="" disabled selected>Select a page...</option>
                 <option value="#">Home</option>
                 <option value="strength.html">Strength Training</option>
                 <option value="cardio.html">Cardio Exercises</option>
@@ -133,6 +133,15 @@
         <p>&copy; Shape Up!</p>
     </footer>
 </div>
+
+<script>
+    document.getElementById('nav-select').addEventListener('change', function () {
+        var url = this.value;
+        if (url && url !== '#') {
+            location.href = url;
+        }
+    });
+</script>
 
 </body>
 </html>
