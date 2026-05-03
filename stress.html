@@ -4,12 +4,144 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shape Up! | Stress</title>
+	<style>
+		@font-face {
+			font-family: 'American Captain';
+			src: url('fonts/American Captain.ttf') format('truetype');
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 20px;
+		}
+
+		h1 {
+			font-family: 'American Captain', sans-serif;
+			font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
+		}
+
+		figure {
+			float: left;
+			margin: 0 20px 20px 0;
+			align-self: flex-start;
+		}
+
+		figure img {
+			max-width: 300px;
+			width: 100%;
+			display: block;
+		}
+
+		figcaption {
+			text-align: center;
+			font-size: 0.9rem;
+			color: #666;
+			margin-top: 10px;
+		}
+
+		main {
+			display: flex;
+			gap: 30px;
+		}
+
+		section {
+			flex: 1;
+		}
+
+		aside {
+			flex-shrink: 0;
+			width: 250px;
+		}
+
+		aside ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		aside li {
+			padding-left: 30px;
+			position: relative;
+			margin-bottom: 15px;
+		}
+
+		aside li::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			width: 24px;
+			height: 24px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+
+		aside li:nth-child(1)::before {
+			background-image: url('images/yoga-icon.png');
+		}
+
+		aside li:nth-child(2)::before {
+			background-image: url('images/stretch-icon.png');
+		}
+
+		aside li:nth-child(3)::before {
+			background-image: url('images/run-icon.png');
+		}
+
+		aside li:nth-child(4)::before {
+			background-image: url('images/cardio-icon.png');
+		}
+
+		aside li:nth-child(5)::before {
+			background-image: url('images/strength-icon.png');
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+	</style>
 </head>
 
 <body>
-    <main>
-        <h1>Stress Relief</h1>
-        <h2>Under Construction</h2>
+	<main>
+		<section>
+			<h1>Stress Relief</h1>
+
+			<p>We all encounter stress at one time or another. So it's important to be able to recognize stress and learn how to deal with it.</p>
+
+			<h2>What is stress?</h2>
+
+			<figure>
+				<img src="images/stress.jpg" alt="Person practicing stress relief through meditation">
+				<figcaption>Stress relief through mindfulness and relaxation</figcaption>
+			</figure>
+
+			<p>Stress is the feeling that people have when they are overloaded and struggling to cope with demands. Anything that poses a real or perceived challenge or threat to a person's well-being can cause stress.</p>
+
+			<p>Stress can also be a motivator. It can be essential to survival. The "fight-or-flight" mechanism helps us know when and how to respond to danger. But when this mechanism is triggered too often, it can compromise your health and well-being.</p>
+
+			<h2>How to manage your stress</h2>
+
+			<p>To help manage stress, try the following:</p>
+
+			<ul>
+				<li>Take a break from what you're doing</li>
+				<li>Exercise on a regular basis</li>
+				<li>Take time to smile and laugh</li>
+				<li>Get support from family and friends</li>
+				<li>Meditate</li>
+			</ul>
+			</section>
+
+		<aside>
+			<h3>Quick Tips</h3>
+			<ul>
+				<li>Yoga</li>
+				<li>Stretching</li>
+				<li>Running</li>
+				<li>Cardio</li>
+				<li>Strength Training</li>
+			</ul>
+		</aside>
 	</main>
 </body>
 </html>
