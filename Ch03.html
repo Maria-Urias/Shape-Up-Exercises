@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 03</title>
+    <style>
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        aside li {
+            padding-left: 30px;
+            position: relative;
+        }
+        aside li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        aside li:nth-child(1)::before {
+            background-image: url('path/to/icon1.png');
+        }
+        aside li:nth-child(2)::before {
+            background-image: url('path/to/icon2.png');
+        }
+        aside li:nth-child(3)::before {
+            background-image: url('path/to/icon3.png');
+        }
+        /* Add more styles for specific nth-child if needed */
+    </style>
+</head>
+<body>
+
+<aside>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</aside>
+
+</body>
+</html>
