@@ -19,3 +19,20 @@ h1 {
 header img {
     width: clamp(100px, 20%, 120px);
 }
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+aside ul li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}

@@ -81,10 +81,10 @@
         <aside>
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Tools</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#"><img src="run-icon.png" alt="run icon">Home</a></li>
+                <li><a href="#"><img src="strength-icon.png" alt="strength icon">Programs</a></li>
+                <li><a href="#"><img src="cardio-icon.png" alt="cardio icon">Tools</a></li>
+                <li><a href="#"><img src="yoga-icon.png" alt="yoga icon">Contact</a></li>
             </ul>
         </aside>
 
