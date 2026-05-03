@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'American Captain';
+    src: url('fonts/American Captain.ttf') format('truetype');
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -13,9 +18,36 @@ aside {
 }
 
 h1 {
+    font-family: 'American Captain', sans-serif;
     font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
 }
 
 header img {
     width: clamp(100px, 20%, 120px);
+}
+
+figure {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+figure img {
+    max-width: 250px;
+    display: block;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 250px;
+}
+
+aside ul li img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    border-radius: 4px;
 }
