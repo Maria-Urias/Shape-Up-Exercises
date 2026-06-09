@@ -12,191 +12,74 @@
 			box-sizing: border-box;
 		}
 
+		html {
+			background-color: white;
+		}
+
 		body {
-			width: 850px;
-			margin: 0 auto;
+			width: 700px;
+			margin: 20px auto;
 			border: 3px solid steelblue;
 			box-shadow: 0 0 12px black;
 			font-family: Arial, Helvetica, sans-serif;
-			background: white;
+			background-color: white;
 		}
 
 		header {
-			display: flex;
-			align-items: center;
-			gap: 20px;
-			padding: 24px 30px;
-			background: linear-gradient(to bottom, white, #c7d9ee);
+			padding: 24px;
+			background: linear-gradient(to bottom, white, lightsteelblue);
 			border-bottom: 3px solid steelblue;
 		}
 
-		header img {
-			width: 90px;
-			height: auto;
-		}
-
-		header h1 {
-			font-size: 3rem;
-			font-style: italic;
-			color: steelblue;
-			margin-bottom: 6px;
-		}
-
-		header p {
-			font-size: 1.2rem;
-			font-weight: bold;
-			margin: 0;
-		}
-
 		main {
-			padding: 28px 32px 40px;
+			padding: 24px;
 		}
 
-		h2 {
-			font-size: 2.2rem;
-			margin-bottom: 18px;
+		h1,
+		h2,
+		h3 {
+			margin-bottom: 12px;
 		}
 
 		p {
-			font-size: 1.1rem;
-			line-height: 1.45;
-			margin-bottom: 18px;
-		}
-
-		blockquote {
-			margin: 10px 0 28px 40px;
-			font-size: 1.1rem;
+			margin-bottom: 16px;
 			line-height: 1.5;
 		}
 
-		.offer-title {
-			font-size: 1.9rem;
-			margin: 24px 0 20px;
-		}
-
-		.offer-item {
-			margin-bottom: 24px;
-		}
-
-		.offer-item h3 a {
-			color: #8b1e1e;
-			text-decoration: underline;
-			font-size: 1.1rem;
-		}
-
-		.offer-item p {
-			margin-top: 8px;
-			margin-bottom: 0;
-		}
-
 		aside {
-			margin-top: 30px;
-			padding: 22px 28px;
-			border: 3px solid #8cb3d9;
-			border-radius: 30px;
-		}
-
-		aside h3 {
-			color: #8b1e1e;
-			font-size: 1.2rem;
-			margin-bottom: 16px;
-		}
-
-		aside ul {
-			padding-left: 24px;
-		}
-
-		aside li {
-			margin-bottom: 10px;
-			font-size: 1.1rem;
-		}
-
-		aside a {
-			color: #6a86a8;
-			font-weight: bold;
+			margin-top: 24px;
+			padding: 24px;
+			border: 3px solid steelblue;
+			border-radius: 24px;
 		}
 
 		footer {
-			padding: 22px;
+			padding: 20px;
 			text-align: center;
 			background-color: steelblue;
 			color: white;
-			font-weight: bold;
+		}
+
+		footer p {
+			margin-bottom: 0;
 		}
 	</style>
 </head>
+
 <body>
 	<header>
-		<img src="images/shape_up_logo.png" alt="Shape Up logo">
-		<div>
-			<h1>Shape Up!</h1>
-			<p>Find the best fit for you</p>
-		</div>
+		<h1>Shape Up!</h1>
+		<p>Find the best fit for you</p>
 	</header>
 
 	<main>
 		<h2>Get ready to Shape Up!</h2>
-
-		<p>
-			How many times have you started a new workout routine or diet? And how many times has it
-			failed to give you the results you want? Now, with the help of this site, you can learn
-			about the exercises and diet that work best for you. We offer personalized programs as
-			well as access to several health and dieting tools. So don't wait! Get started looking
-			and feeling better today.
-		</p>
-
-		<p>As fitness expert Amanda Russell said:</p>
-
-		<blockquote>
-			Fitness is about so much more than exercise. It's a catalyst for positive change, and it
-			affects every aspect of your life.
-		</blockquote>
-
-		<h2 class="offer-title">What we offer</h2>
-
-		<section class="offer-item">
-			<h3><a href="#">Build strong muscles</a></h3>
-			<p>
-				Tired of being tired? Strength training can help you manage or lose weight and increase
-				your metabolism to help you burn more calories. It can also increase bone density and
-				reduce the risk of osteoporosis.
-			</p>
-		</section>
-
-		<section class="offer-item">
-			<h3><a href="#">Get your heart rate up</a></h3>
-			<p>
-				Want to lose weight? Cardiovascular exercise burns calories and improves overall health.
-				It can reduce belly fat, promote brain growth, prevent stress, and help you focus.
-			</p>
-		</section>
-
-		<section class="offer-item">
-			<h3><a href="#">Relax</a></h3>
-			<p>
-				Stressed out? Stress can weaken the immune system and cause high blood pressure,
-				fatigue, depression, anxiety, and even heart disease. Learn ways to manage and reduce
-				stress.
-			</p>
-		</section>
-
-		<section class="offer-item">
-			<h3><a href="#">Eat what's right for you</a></h3>
-			<p>
-				Are you really what you eat? Lose weight, gain weight, or just feel great! Maintaining
-				a healthy diet is probably the most important thing you can do to promote overall health.
-			</p>
-		</section>
+		<p>How many times have you started a new workout routine or diet? And how many times has it failed to give you the results you want? Now, with the help of this site, you can learn about the exercise[...]</p>
+		<p>We offer personalized programs as well as access to several health and dieting tools. So don't wait! Get started looking and feeling better today.</p>
 
 		<aside>
 			<h3>Additional resources</h3>
-			<ul>
-				<li><a href="#">Physical activity and health</a></li>
-				<li><a href="#">Stretching exercises</a></li>
-				<li><a href="#">Strength training</a></li>
-				<li><a href="#">Cardiovascular training</a></li>
-				<li><a href="#">Yoga workout</a></li>
-			</ul>
+			<p>Explore more information about physical activity and health, stretching exercises, strength training, cardiovascular training, and yoga workouts.</p>
 		</aside>
 	</main>
 
