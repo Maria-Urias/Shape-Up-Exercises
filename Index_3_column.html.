@@ -10,7 +10,7 @@
     <header>
         <h1>Shape Up!</h1>
         <p>Find the best fit for you</p>
-        <img src="images/shapeup.png" alt="People exercising in a circle">
+        <img src="shape_up_logo.png" alt="People exercising in a circle">
     </header>
 
     <nav class="navbar">
